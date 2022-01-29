@@ -4,7 +4,7 @@ jobs:
     main:
         runs-on: ubuntu-latest
         steps:
-            - name: "greeting users"
+            - name: "greeting user"
               uses: actions/checkout@v2
             - uses: vinaychandradixit/custom-action@master
         
