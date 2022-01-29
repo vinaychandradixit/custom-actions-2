@@ -1,0 +1,10 @@
+name: custom-action
+on: [push]
+jobs:
+    main:
+        runs-on: ubuntu-latest
+        steps:
+            - name: "greeting user"
+              uses: actions@checkout@v2
+            - uses: actions@custom-action@master
+        
