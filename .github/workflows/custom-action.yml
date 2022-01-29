@@ -5,6 +5,6 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: "greeting user"
-              uses: actions@checkout@v2
-            - uses: vinaychandradixit@custom-action@master
+              uses: actions/checkout@v2
+            - uses: vinaychandradixit/custom-action@master
         
